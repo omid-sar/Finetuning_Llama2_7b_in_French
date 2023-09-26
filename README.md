@@ -1,6 +1,3 @@
-Based on the format of your previous README file, here's how you might structure the README for your current project:
-
-```markdown
 # Fine-tuning Llama-2-7b using QLoRA on Google Colab
 
 ## Goal
@@ -31,6 +28,3 @@ Run the following commands in your Google Colab notebook to install the required
 ```bash
 !pip install -q -U trl transformers accelerate git+https://github.com/huggingface/peft.git
 !pip install -q datasets bitsandbytes einops
-```
-
-
