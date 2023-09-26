@@ -1,8 +1,10 @@
-# Fine-tuning Llama-2-7b using QLoRA on Google Colab
+# Fine-tuning Llama-2-7b using QLoRA in French on Google Colab
+
 
 ## Goal
 
-The goal of this project is to fine-tune the Llama-2-7b model on a single T4 GPU provided by Google Colab to turn it into a chatbot that can respond to questions in French. We leverage the PEFT library from the Hugging Face ecosystem and QLoRA for more memory-efficient fine-tuning.
+The goal of this project is to adapt the Llama-2-7b model, which initially might not have proficiency in French, to understand and respond accurately to queries in the French language. This adaptation involves fine-tuning the model on a dataset of French novels, allowing it to comprehend the nuances, syntax, and semantics of the French language. By leveraging the PEFT library from the Hugging Face ecosystem and QLoRA for more memory-efficient fine-tuning on a single T4 GPU provided by Google Colab, we aim to create a chatbot that can effectively answer questions posed in French.
+
 
 ## Overview
 
