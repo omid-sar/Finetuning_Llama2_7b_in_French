@@ -1,0 +1,60 @@
+name: FILL ENVIRONMENT_NAME HERE
+
+channels:
+  - apple
+  - conda-forge
+dependencies:
+    - python=3.11.4
+    - jupyter
+    - numpy
+    - scikit-learn
+    - scipy
+    - pandas
+    - matplotlib
+    - seaborn
+    - black
+    - keras
+    - pip:
+        - tensorflow-macos
+        - tensorflow-metal
+        - openai
+        - python-dotenv
+        - langchain  
+        - docarray
+        - tiktoken
+        - chromadb
+        - streamlit
+
+
+
+# ***YOU DONT NEED RUN .YML FILE IN TERMINAL, IF YOU RUN BASH SCRIPT FILE (setup.sh)***
+#------------------- environment.yml ------------------
+# How to run .yml in Terminal 
+
+#1. save the file as environment.yml
+#2. open terminal
+#3. cd to the folder where the file is saved
+#4. run the following command
+#  conda env create -f environment.yml
+#5. activate the environment
+# conda activate FILL ENVIRONMENT_NAME HERE
+#6. update environment 
+# conda env update --file environment.yml --prune
+
+# -----------------NOTICE: Terminal commands ----------------
+#I encountered issues when trying to install several libraries.
+#The solution I discovered was to execute the following code
+# directly in the terminal.
+
+
+
+# ------------------------ setup.sh --------------------------
+# How to run bash script in Terminal
+
+#1. Open the terminal.
+#2. Navigate to the directory containing the setup.sh file.
+#3. Run the following command:
+# chmod +x setup.sh
+#This command makes the setup.sh file executable.
+#4. Run the script with:
+# ./setup.sh
